@@ -1,0 +1,32 @@
+[project]
+name = "submission"
+version = "0.1.2"
+requires-python = ">=3.8"
+
+# You can add dependencies with `aqora add`
+dependencies = [
+  "q3as>=0.1.3",
+  "python-dotenv>=1.0.1",
+  "numpy~=2.3.5",
+  "matplotlib~=3.10.7",
+]
+
+[build-system]
+requires = [
+  "uv>=0.4.20",
+  "setuptools>=75",
+  "wheel>=0.44",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+[tool.setuptools.package-data]
+submission = ["*"]
+
+[tool.aqora]
+type = "submission"
+competition = "roqteam-qml"
+
+[tool.aqora.refs]
+solution = { path = "submission.solution", notebook = true }
