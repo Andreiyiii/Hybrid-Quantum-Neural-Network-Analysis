@@ -1,8 +1,0 @@
-# Project configuration
-
-# The default configuration set by the competition
-[default]
-show_score = false
-
-# User specific overrides
-[user]
