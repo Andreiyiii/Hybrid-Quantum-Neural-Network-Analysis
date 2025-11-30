@@ -1,0 +1,10 @@
+torch
+torchvision
+pennylane
+medmnist
+numpy
+matplotlib
+pillow
+scikit-learn
+tqdm
+

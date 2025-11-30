@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-submission/solution.ipynb
-submission.egg-info/PKG-INFO
-submission.egg-info/SOURCES.txt
-submission.egg-info/dependency_links.txt
-submission.egg-info/requires.txt
-submission.egg-info/top_level.txt

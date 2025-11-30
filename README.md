@@ -88,6 +88,6 @@ This dataset contains small retinal images labeled for classification tasks.
 
 ### Install dependencies
 ```bash
-pip install -r submission.egg-info/requires.txt
+pip install -r requirements.txt
 
 
